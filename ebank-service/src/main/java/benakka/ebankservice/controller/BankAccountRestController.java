@@ -26,7 +26,7 @@ public class BankAccountRestController {
         return bankAccountService.getBankAccountById(id);
     }
 
-    @PostMapping("account")
+    @PostMapping("/accounts")
     public BankAccount save(@RequestBody BankAccount bankAccount){
         return bankAccountService.save(bankAccount);
     }

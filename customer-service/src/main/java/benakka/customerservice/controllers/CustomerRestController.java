@@ -23,7 +23,7 @@ public class CustomerRestController {
         return customerService.findCustomerById(id);
     }
 
-    @PostMapping("/customer")
+    @PostMapping("/customers")
     public Customer saveCustomer(@RequestBody Customer customer){
         return customerService.saveCustomer(customer);
     }
