@@ -1,6 +1,6 @@
 # projet-ms-ebank-app
 
-## 1. première partie
+## 1ÈRE PARTIE
 
 ### Customer service
 ![img.png](img.png)
@@ -20,7 +20,7 @@
 ### CircuitBreaker : Resilience4j
 ![img_5.png](img_5.png)
 
-## 2. Chat Bot
+## 2ÈME PARTIE : Chat Bot
 
 ### premier test de LLM
 ![img_6.png](img_6.png)
@@ -42,3 +42,7 @@
 
 ### Bot Telegram
 ![img_14.png](img_14.png)
+
+## 3ÈME PARTIE : Frontend Angular
+
+![img_15.png](img_15.png)
