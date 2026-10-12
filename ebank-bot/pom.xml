@@ -59,11 +59,7 @@
             <version>6.9.7.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.zgamelogic</groupId>
-            <artifactId>spring-boot-starter-discord</artifactId>
-            <version>5.0.4</version>
-        </dependency>
+
 
         <dependency>
             <groupId>org.springdoc</groupId>

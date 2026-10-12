@@ -46,3 +46,7 @@
 ## 3ÈME PARTIE : Frontend Angular
 
 ![img_15.png](img_15.png)
+
+### interface de Bot
+![img_16.png](img_16.png)
+![img_17.png](img_17.png)
