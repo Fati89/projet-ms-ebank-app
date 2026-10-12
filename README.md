@@ -43,6 +43,9 @@
 ### Bot Telegram
 ![img_14.png](img_14.png)
 
+### Bot Discord
+![img_18.png](img_18.png)
+
 ## 3ÈME PARTIE : Frontend Angular
 
 ![img_15.png](img_15.png)
