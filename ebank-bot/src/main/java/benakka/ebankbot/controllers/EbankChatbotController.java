@@ -28,5 +28,9 @@ public class EbankChatbotController {
         return ebankAiAgent.chat(query);
     }
 
+    @GetMapping(value = "/chatStream", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    public Flux<String> chatStream(@RequestParam(name="query", defaultValue="Bonjour") String query){
+        return ebankAiAgent.chatStream(query);
+    }
 
 }

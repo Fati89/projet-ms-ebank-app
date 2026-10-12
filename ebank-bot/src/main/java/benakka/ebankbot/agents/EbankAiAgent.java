@@ -40,6 +40,12 @@ public class EbankAiAgent {
     }
 
 
+    public Flux<String> chatStream(String query){
+        return chatClient.prompt(query)
+                .options(OpenAiChatOptions.builder().extraBody(Map.of("include_reasoning", false)))
+                .advisors(advisor -> advisor.param(ChatMemory.CONVERSATION_ID, "1"))
+                .stream().content();
+    }
 }
 
 
